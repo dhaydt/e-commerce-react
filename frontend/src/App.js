@@ -4,11 +4,11 @@ function App() {
     <div className="grid-container">
       <header className="row">
         <div>
-          <a className="brand" href="index.html">Gazwah</a>
+          <a className="brand" href="/">Gazwah</a>
         </div>
         <div>
-          <a href="cart.html">Cart</a>
-          <a href="signin.html">Sign In</a>
+          <a href="/cart">Cart</a>
+          <a href="/signin">Sign In</a>
         </div>
       </header>
       <main>
@@ -16,8 +16,8 @@ function App() {
           <div className="row center">
             {data.products.map((product) => (
               <div key={product._id} className="card">
-                <a href="product.html">
-                  <img src="./images/p1.png" className="medium" alt="product" />
+                <a href={`/product/${product._id}`}>
+                  <img src={product.image} className="medium" alt="product" />
                 </a>
                 <div className="card-body">
                   <a href={`/product/${product._id}`}>
@@ -40,7 +40,7 @@ function App() {
                       <i className="fa fa-star"></i>
                     </span>
                   </div>
-                  <div className="price">{product.price}</div>
+                  <div className="price">Rp {product.price}</div>
                 </div>
               </div>
             ))
