@@ -1,0 +1,26 @@
+{
+  "name": "e-commerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Fullstack Ecommerce JS",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhaydt/e-commerce-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhaydt/e-commerce-react/issues"
+  },
+  "homepage": "https://github.com/dhaydt/e-commerce-react#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
