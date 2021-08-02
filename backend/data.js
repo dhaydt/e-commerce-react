@@ -18,7 +18,6 @@ const data = {
 
   products: [
     {
-      _id: "1",
       name: "Lenovo IDEAPAD L340 RYZEN",
       category: "Laptop",
       image: "/images/p1.png",
@@ -30,7 +29,6 @@ const data = {
       description: "Gaming HD laptop",
     },
     {
-      _id: "2",
       name: "Acer IDEAPAD L340 RYZEN",
       category: "Laptop",
       image: "/images/p2.jpeg",
@@ -42,7 +40,6 @@ const data = {
       description: "Gaming HD laptop",
     },
     {
-      _id: "3",
       name: "Asus IDEAPAD L340 RYZEN",
       category: "Laptop",
       image: "/images/p3.jpeg",
@@ -54,7 +51,6 @@ const data = {
       description: "Gaming HD laptop",
     },
     {
-      _id: "4",
       name: "HP IDEAPAD L340 RYZEN",
       category: "Laptop",
       image: "/images/p4.jpeg",
@@ -66,7 +62,6 @@ const data = {
       description: "Gaming HD laptop",
     },
     {
-      _id: "5",
       name: "DELL IDEAPAD L340 RYZEN",
       category: "Laptop",
       image: "/images/p5.jpeg",
