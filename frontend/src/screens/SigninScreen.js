@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 export default function SigninScreen() {
   return (
     <div>
-      <form>
+      <form className="form">
         <div>
-          <h1>Sign In</h1>
+          <h1>Sign In Gazwah Shopify</h1>
         </div>
         <div>
           <label htmlFor="email">Email</label>
