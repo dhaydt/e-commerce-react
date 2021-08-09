@@ -50,6 +50,7 @@ export default function ShippingAddressScreen(props) {
           <input
             type="text"
             id="fullName"
+            value={fullName}
             onChange={(e) => setFullName(e.target.value)}
             required
           />
@@ -60,6 +61,7 @@ export default function ShippingAddressScreen(props) {
           <input
             type="text"
             id="address"
+            value={address}
             onChange={(e) => setAddress(e.target.value)}
             required
           />
@@ -69,6 +71,7 @@ export default function ShippingAddressScreen(props) {
           <label htmlFor="city">City</label>
           <input
             type="text"
+            value={city}
             id="city"
             onChange={(e) => setCity(e.target.value)}
             required
@@ -80,6 +83,7 @@ export default function ShippingAddressScreen(props) {
           <input
             type="text"
             id="postalCode"
+            value={postalCode}
             onChange={(e) => setPostalCode(e.target.value)}
             required
           />
@@ -90,6 +94,7 @@ export default function ShippingAddressScreen(props) {
           <input
             type="text"
             id="country"
+            value={country}
             onChange={(e) => setCountry(e.target.value)}
             required
           />
