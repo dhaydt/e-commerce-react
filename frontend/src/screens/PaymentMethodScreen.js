@@ -18,7 +18,7 @@ export default function PaymentMethodScreen(props) {
     e.preventDefault();
     dispatch(savePaymentMethod(paymentMethod));
 
-    props.history.push("/placeholder");
+    props.history.push("/placeorder");
   };
   return (
     <div>
