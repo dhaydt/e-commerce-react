@@ -49,12 +49,14 @@ export default function PaymentMethodScreen(props) {
               type="radio"
               id="stripe"
               value="Stripe"
+              name="paymentMethod"
               onChange={(e) => setPaymentMethod(e.target.value)}
               required
             />
             <label htmlFor="stripe">Stripe</label>
           </div>
         </div>
+
         <div>
           <label />
           <button className="primary" type="submit">
