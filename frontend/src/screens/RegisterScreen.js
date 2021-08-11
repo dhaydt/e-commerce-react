@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import { register, signin } from "../actions/userActions";
+import { register } from "../actions/userActions";
 import MessageBox from "../components/MessageBox";
 import LoadingBox from "../components/LoadingBox";
 

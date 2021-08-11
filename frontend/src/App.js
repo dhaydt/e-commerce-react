@@ -14,12 +14,12 @@ import SigninScreen from "./screens/SigninScreen";
 function App() {
   const cart = useSelector((state) => state.cart);
   const { cartItems } = cart;
-
   const userSignin = useSelector((state) => state.userSignin);
   const { userInfo } = userSignin;
   const dispatch = useDispatch();
   const signoutHandler = () => {
     dispatch(signout());
+    window.location.reload();
   };
 
   return (
