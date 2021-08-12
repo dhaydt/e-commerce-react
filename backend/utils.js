@@ -35,3 +35,11 @@ export const isAuth = (req, res, next) => {
     res.status(401).send({ messae: "No token" });
   }
 };
+
+export const isAdmin = (req, res, next) => {
+  if (req.userr && req.user.isAdmin) {
+    next();
+  } else {
+    res.status(401).send({ message: "You do not Have Authrization" });
+  }
+};
