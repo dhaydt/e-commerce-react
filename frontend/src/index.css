@@ -296,6 +296,10 @@ img.large {
 .table tbody tr:nth-of-type(odd) {
   background-color: #f4f4f4;
 }
+.table th {
+  background-color: #203040;
+  color: white;
+}
 .table td,
 .table th {
   text-align: center;
